@@ -52,27 +52,7 @@ public class PersonLinkedList {
 
         }
     }
-    //sorting the elements in descending order
-    /*public void sortList() {
-        int c=0;
-        PersonLinkedList.Node a = head.link;
-        while (a.link!=null)
-        {
-            PersonLinkedList.Node b = head.link;
-            while(b.link!= null) {
-                if(b.person < b.link.person) {
-                    c = b.value;
-                    b.value = b.link.value;
-                    b.link.value = c;
-                }
-                b = b.link;
-            }
-            a = a.link;
-        }
-    }*/
-
-
-    class Node {
+      class Node {
         private Person person;
         private Node link;
     }
